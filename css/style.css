@@ -63,3 +63,29 @@ body{
    background: #2196F3;
 
 }
+
+/*footer*/
+.footer-content{
+   background: #2F303A;
+
+}
+
+.location-footer{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+}
+.mail-telefon-footer{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
+
+}
