@@ -9,9 +9,20 @@ body{
 .list{
    list-style: none;
 }
-/*.link{
+.link{
    text-decoration: none;
-}*/
+}
+.visually-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px; }
 /*line-height:1.33*/
                               /*Шапка*/
 .header{
@@ -24,7 +35,6 @@ body{
    font-size: 26px;
    line-height: 1.38;
    color: #212121;
-   padding: 25px 95px 25px 215px;
 }
 .web-logo{
    color: var(--text-active);
@@ -61,7 +71,7 @@ body{
    letter-spacing: 0.02em;
 
 }
-/* font family : inherit */ 
+/* font family : inherit; */ 
 .mail-to:hover,
 .mail-to:focus{
    background: var(--text-active);
@@ -76,10 +86,7 @@ body{
                         /*footer*/
 .footer-content{
    background: #2F303A;
-   width: 1600px;
-   height: 252px;
-   left: 0px;
-   top: 2097px;
+
 
 }
 .location-footer{
@@ -99,7 +106,16 @@ body{
    color: rgba(255, 255, 255, 0.6);
 }
                               /*cервисы 1cтр*/
+
+
+
+
+
+
             /*заказать услугу*/
+
+
+
 .title-part{
    background-color: #2F303A;
 }
@@ -126,6 +142,8 @@ body{
 }
 
          /*заголовки и текст*/
+
+
 .section-advanteges,
 .section-services{background: #E5E5E5;
 }
@@ -158,6 +176,8 @@ body{
 }
 
                /*наша команда фото*/
+
+
 .our-team-section{
    background: #F5F4FA;
    ;
@@ -190,6 +210,7 @@ body{
 
 }
 .section-buttons-text{
+   font-family: inherit;
 
 }
 
@@ -199,4 +220,20 @@ body{
 .button-all{
    color: #FFFFFF;
    background-color: var(--text-active )
+}
+.text-title-box{
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 2.0;
+   letter-spacing: 0.06em;
+   color: #212121;
+}
+.text-caption{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.8;
+   letter-spacing: 0.03em;
+   color: #757575;
 }
