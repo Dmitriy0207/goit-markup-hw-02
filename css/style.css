@@ -1,0 +1,65 @@
+body{
+   background-color: #e5e5e5;
+}
+   /*Шапка*/
+.header{
+   background-color: #ffffff;
+}
+.logo{
+   font-family: Raleway;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+}
+.studio,.portfolio,.contacts{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+}
+.studio:hover,
+.studio:focus{
+   background: #2196F3;
+}
+.portfolio:hover,
+.portfolio:focus{
+   background: #2196F3;
+}
+.contacts:hover,
+.contacts:focus{
+   background: #2196F3;
+}
+.mail-to,.telefon{
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+
+}
+.mail-to:hover,
+.mail-to:focus{
+   background: #2196F3;
+}
+.telefon:hover,
+.telefon:focus{
+   background: #2196F3;
+}
+
+
+
+
+
+
+
+
+.title-part{
+   background-color: #2F303A;
+}
+.button{
+   background: #2196F3;
+
+}
