@@ -4,23 +4,25 @@
 }
 body{
    background-color: #e5e5e5;
-   font-family: Roboto,sans-serif;
+   font-family: 'Roboto',sans-serif;
 }
+.list{
+   list-style: none;
+}
+/*.link{
+   text-decoration: none;
+}*/
+/*line-height:1.33*/
                               /*Шапка*/
 .header{
    background-color: #ffffff;
-   /*position: absolute;
-   width: 1600px;
-   height: 80px;
-   left: 0px;
-   top: 0px;*/
 }
 .logo{
-   font-family: Raleway;
+   font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
    font-size: 26px;
-   line-height: 31px;
+   line-height: 1.38;
    color: #212121;
    padding: 25px 95px 25px 215px;
 }
@@ -33,7 +35,7 @@ body{
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 1.2;
 }
 /*.studio{
    margin:32px 50px 32px 94px ;
@@ -55,10 +57,11 @@ body{
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 1.2;
    letter-spacing: 0.02em;
 
 }
+/* font family : inherit */ 
 .mail-to:hover,
 .mail-to:focus{
    background: var(--text-active);
@@ -91,7 +94,7 @@ body{
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
-   line-height: 24px;
+   line-height: 1.7;
    letter-spacing: 0.03em;
    color: rgba(255, 255, 255, 0.6);
 }
@@ -99,18 +102,13 @@ body{
             /*заказать услугу*/
 .title-part{
    background-color: #2F303A;
-   width: 1600px;
-   height: 600px;
-   left: 0px;
-   top: 80px;
-   position: absolute;
 }
 .button{
    background: var(--text-active);
    font-style: normal;
    font-weight: 700;
    font-size: 16px;
-   line-height: 30px;
+   line-height:1.85;
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
@@ -120,7 +118,7 @@ body{
    font-style: normal;
    font-weight: 900;
    font-size: 44px;
-   line-height: 60px;
+   line-height: 1.36;
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;   
@@ -135,7 +133,7 @@ body{
    font-style: normal;
    font-weight: 700;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 1.2;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #212121;
@@ -144,7 +142,7 @@ body{
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
-   line-height: 24px;
+   line-height: 1.7;
    letter-spacing: 0.03em;
    color: #757575;
 
@@ -153,7 +151,7 @@ body{
    font-style: normal;
    font-weight: 700;
    font-size: 36px;
-   line-height: 42px;
+   line-height: 1.16;
    text-align: center;
    letter-spacing: 0.03em;
    color: #212121;
@@ -168,7 +166,7 @@ body{
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 1.18;
    text-align: center;
    letter-spacing: 0.03em;
    color: #212121;
@@ -177,7 +175,7 @@ body{
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 1.18;
    text-align: center;
    letter-spacing: 0.03em;
    color: #757575;
@@ -188,18 +186,17 @@ body{
 .main-portfolio{
    margin: 95px 215px;
 }
+.button-other{
+
+}
+.section-buttons-text{
+
+}
+
 .section-buttons{
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 26px;
-   text-align: center;
-   letter-spacing: 0.03em;
+
 }
 .button-all{
    color: #FFFFFF;
    background-color: var(--text-active )
-}
-.button-other{
-   #F5F4FA;
 }
