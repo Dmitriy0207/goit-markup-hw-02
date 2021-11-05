@@ -1,6 +1,8 @@
 :root{
    --text-active:#2196F3;
-
+   --text-header:#212121;
+   --background-section:#ffffff;
+   --color-text:#757575;
 }
 body{
    background-color: #e5e5e5;
@@ -26,7 +28,7 @@ body{
 /*line-height:1.33*/
                               /*Шапка*/
 .header{
-   background-color: #ffffff;
+   background-color: var(--background-section);
 }
 .logo{
    font-family: 'Raleway';
@@ -34,7 +36,7 @@ body{
    font-weight: 700;
    font-size: 26px;
    line-height: 1.38;
-   color: #212121;
+   color:var(--text-header);
 }
 .web-logo{
    color: var(--text-active);
@@ -46,20 +48,24 @@ body{
    font-weight: 500;
    font-size: 14px;
    line-height: 1.2;
+   color: var(--text-header);
 }
 /*.studio{
    margin:32px 50px 32px 94px ;
 }*/
 .studio:hover,
-.studio:focus{
+.studio:focus,
+.studio:active{
    background: var(--text-active)
 }
 .portfolio:hover,
-.portfolio:focus{
+.portfolio:focus,
+.portfolio:active{
    background: var(--text-active);
 }
 .contacts:hover,
-.contacts:focus{
+.contacts:focus,
+.contacts:active{
    background: var(--text-active)
 }
 .mail-to,
@@ -69,7 +75,7 @@ body{
    font-size: 14px;
    line-height: 1.2;
    letter-spacing: 0.02em;
-
+   color: var(--color-text)
 }
 /* font family : inherit; */ 
 .mail-to:hover,
@@ -86,16 +92,17 @@ body{
                         /*footer*/
 .footer-content{
    background: #2F303A;
-
-
 }
-.location-footer{
+.location{
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
    line-height: 24px;
    letter-spacing: 0.03em;
-   color: #FFFFFF;
+   color: var(--background-section);
+}
+.location-footer{
+  
 }
 .mail-telefon-footer{
    font-style: normal;
@@ -103,7 +110,10 @@ body{
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
-   color: rgba(255, 255, 255, 0.6);
+}
+.mail-to-footer,
+.telefon-footer{
+    color: rgba(255, 255, 255, 0.6);
 }
                               /*cервисы 1cтр*/
 
@@ -128,7 +138,7 @@ body{
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
-   color: #FFFFFF;
+   color: var(--background-section);
 }
 .title-business{
    font-style: normal;
@@ -138,7 +148,7 @@ body{
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;   
-   color: #FFFFFF;
+   color: var(--background-section);
 }
 
          /*заголовки и текст*/
@@ -154,7 +164,7 @@ body{
    line-height: 1.2;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: #212121;
+   color: var(--text-header);
 }
 .main-text{
    font-style: normal;
@@ -162,7 +172,7 @@ body{
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
-   color: #757575;
+   color: var(--color-text);
 
 }
 .title-employment{
@@ -172,7 +182,7 @@ body{
    line-height: 1.16;
    text-align: center;
    letter-spacing: 0.03em;
-   color: #212121;
+   color: var(--text-header);
 }
 
                /*наша команда фото*/
@@ -189,7 +199,7 @@ body{
    line-height: 1.18;
    text-align: center;
    letter-spacing: 0.03em;
-   color: #212121;
+   color: var(--text-header);
 }
 .text-foto-team{
    font-style: normal;
@@ -198,7 +208,7 @@ body{
    line-height: 1.18;
    text-align: center;
    letter-spacing: 0.03em;
-   color: #757575;
+   color: var(--color-text);
 }
 
 
@@ -206,9 +216,7 @@ body{
 .main-portfolio{
    margin: 95px 215px;
 }
-.button-other{
 
-}
 .section-buttons-text{
    font-family: inherit;
 
@@ -217,17 +225,23 @@ body{
 .section-buttons{
 
 }
-.button-all{
-   color: #FFFFFF;
+.section-buttons-text{
+
+}
+.button-all:focus,
+.button-all:hover{
+   color: var(--background-section);
    background-color: var(--text-active )
 }
+.button-all{
+font-family: inherit;
+}
 .text-title-box{
-   font-style: normal;
    font-weight: bold;
    font-size: 18px;
    line-height: 2.0;
    letter-spacing: 0.06em;
-   color: #212121;
+   color: var(--text-header);
 }
 .text-caption{
    font-style: normal;
@@ -235,5 +249,5 @@ body{
    font-size: 16px;
    line-height: 1.8;
    letter-spacing: 0.03em;
-   color: #757575;
+   color: var(--color-text);
 }
