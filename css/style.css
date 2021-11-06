@@ -78,12 +78,12 @@ body{
    color: var(--color-text)
 }
 /* font family : inherit; */ 
-.mail-to:hover,
-.mail-to:focus{
+.mail-to-footer:hover,
+.mail-to-footer:focus{
    background: var(--text-active);
 }
-.telefon:hover,
-.telefon:focus{
+.telefon-footer:hover,
+.telefon-footer:focus{
    background: var(--text-active);
 }
 .button{
@@ -215,7 +215,7 @@ body{
 
 /*страница 2*/
 .main-portfolio{
-   
+
 }
 
 .section-buttons-text{
