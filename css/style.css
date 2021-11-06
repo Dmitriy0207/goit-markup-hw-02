@@ -129,6 +129,16 @@ body{
 .title-part{
    background-color: #2F303A;
 }
+.title-business{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;   
+   color: var(--background-section);
+}
 .button{
    background: var(--text-active);
    font-style: normal;
@@ -140,16 +150,6 @@ body{
    letter-spacing: 0.06em;
    color: var(--background-section);
    font-family: inherit;
-}
-.title-business{
-   font-style: normal;
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 1.36;
-   text-align: center;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;   
-   color: var(--background-section);
 }
 
          /*заголовки и текст*/
@@ -215,11 +215,10 @@ body{
 
 /*страница 2*/
 .main-portfolio{
-   margin: 95px 215px;
+   
 }
 
 .section-buttons-text{
-   font-family: inherit;
 
 }
 
@@ -235,8 +234,15 @@ body{
    background-color: var(--text-active )
 }
 .button-all{
-font-family: inherit;
-}
+   font-family:inherit;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.62;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: var(--text-header);
+   }
 .text-title-box{
    font-weight: bold;
    font-size: 18px;
