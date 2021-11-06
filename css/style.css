@@ -113,7 +113,7 @@ body{
 }
 .mail-to-footer,
 .telefon-footer{
-    color: rgba(255, 255, 255, 0.6);
+   color: rgba(255, 255, 255, 0.6);
 }
                               /*cервисы 1cтр*/
 
@@ -139,6 +139,7 @@ body{
    text-align: center;
    letter-spacing: 0.06em;
    color: var(--background-section);
+   font-family: inherit;
 }
 .title-business{
    font-style: normal;
