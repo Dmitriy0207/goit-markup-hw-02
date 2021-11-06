@@ -97,7 +97,7 @@ body{
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
-   line-height: 24px;
+   line-height: 1.71;
    letter-spacing: 0.03em;
    color: var(--background-section);
 }
@@ -150,6 +150,7 @@ body{
    letter-spacing: 0.06em;
    color: var(--background-section);
    font-family: inherit;
+   cursor: pointer;
 }
 
          /*заголовки и текст*/
@@ -242,6 +243,7 @@ body{
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--text-header);
+   cursor: pointer;
    }
 .text-title-box{
    font-weight: bold;
