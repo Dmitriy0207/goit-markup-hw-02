@@ -78,12 +78,12 @@ body{
    color: var(--color-text)
 }
 /* font family : inherit; */ 
-.mail-to-footer:hover,
-.mail-to-footer:focus{
+.mail-to:hover,
+.mail-to:focus{
    background: var(--text-active);
 }
-.telefon-footer:hover,
-.telefon-footer:focus{
+.telefon:hover,
+.telefon:focus{
    background: var(--text-active);
 }
 .button{
