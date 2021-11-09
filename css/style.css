@@ -52,9 +52,6 @@ body{
    line-height: 1.2;
    color: var(--text-header);
 }
-/*.studio{
-   margin:32px 50px 32px 94px ;
-}*/
 .site-nav-link:hover,
 .site-nav-link:focus{
    color: var(--text-active);
@@ -66,39 +63,37 @@ body{
    letter-spacing: 0.02em;
    color: var(--color-text)
 }
-/* font family : inherit; */ 
 .contacts:hover,
-.contacts:focus{
+.contacts:focus,
+.footer-contacts{
    color: var(--text-active);
 }
 
                         /*footer*/
+
 .footer-content{
    background: #2F303A;
 }
-.footer{
+.studio-logo{
    color: var(--background-section);
 }
 .location{
+   color: var(--background-section);
+}
+.address-item{
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
-   color: var(--background-section);
-}
-.location-footer{
    
 }
-.mail-telefon-footer{
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 1.7;
-   letter-spacing: 0.03em;
-}
-.mail-to-footer,
-.telefon-footer{
+.footer-contacts{
    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+   color: var(--text-active);
 }
                               /*cервисы 1cтр*/
 
@@ -140,7 +135,8 @@ body{
 
 
 .section-advanteges,
-.section-services{background: #ffffff;
+.section-services{
+   background: #ffffff;
 }
 .main-title{
    font-style: normal;
@@ -175,7 +171,6 @@ body{
 
 .our-team-section{
    background: #F5F4FA;
-   ;
 }
 .name-developer{
    font-style: normal;
@@ -197,27 +192,16 @@ body{
 }
 
 
-/*страница 2*/
-.main-portfolio{
 
-}
+                                 /*страница 2*/
 
-.section-buttons-text{
 
-}
-
-.section-buttons{
-
-}
-.section-buttons-text{
-
-}
-.button-all:focus,
-.button-all:hover{
+.button-filter:focus,
+.button-filter:hover{
    color: var(--background-section);
    background-color: var(--text-active )
 }
-.button-all{
+.button-filter{
    font-family:inherit;
    font-style: normal;
    font-weight: 500;
@@ -228,7 +212,8 @@ body{
    color: var(--text-header);
    cursor: pointer;
    }
-.text-title-box{
+                                 /*секция фото*/
+.works-text-box {
    font-weight: bold;
    font-size: 18px;
    line-height: 2.0;
