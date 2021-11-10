@@ -1,3 +1,12 @@
+/*html{
+   box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+   box-sizing: inherit;
+}*/
+
 :root{
    --text-active:#2196F3;
    --text-header:#212121;
@@ -7,6 +16,7 @@
 body{
    background-color: var(--background-section);
    font-family: 'Roboto',sans-serif;
+   
 }
 
 /* что бы убрать точки (класс списка)*/
@@ -35,6 +45,11 @@ body{
                               /*Шапка*/
 .header{
    background-color: var(--background-section);
+}
+.head-conteiner{
+   width: 1170px;
+   margin-left: auto;
+   margin-right: auto;
 }
 .logo{
    font-family: 'Raleway';
@@ -68,7 +83,9 @@ body{
 .footer-contacts{
    color: var(--text-active);
 }
-
+.site-contacts{
+  
+}
                         /*footer*/
 
 .footer-content{
@@ -98,7 +115,9 @@ body{
                               /*cервисы 1cтр*/
 
 
-
+.main-content{
+   border: 1px;
+}
 
 
 
@@ -108,32 +127,54 @@ body{
 
 .title-part{
    background-color: #2F303A;
+   width: 1600px;
+   height: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 200px 452px 0 452px;
+   text-align: center;
 }
 .title-business{
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
-   text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;   
    color: var(--background-section);
+   margin: 30px;
+   padding: 0;
 }
 .button{
    background: var(--text-active);
+   color: var(--background-section);
+   font-family: inherit;
    font-weight: 700;
    font-size: 16px;
    line-height:1.85;
    align-items: center;
-   text-align: center;
+   /*text-align: center;*/
    letter-spacing: 0.06em;
-   color: var(--background-section);
-   font-family: inherit;
    cursor: pointer;
+   min-width: 200px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+   padding: 10px 32px;
+   
 }
 
          /*заголовки и текст*/
 
-
+.features{
+   background-color: var(--background-section);
+   margin-top: 0;
+}
+.features-title{
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+.features-text{
+   margin-top: 0px;
+}
 .section-advanteges,
 .section-services{
    background: #ffffff;
@@ -169,7 +210,7 @@ body{
                /*наша команда фото*/
 
 
-.our-team-section{
+.team-section{
    background: #F5F4FA;
 }
 .name-developer{
@@ -211,6 +252,9 @@ body{
    letter-spacing: 0.03em;
    color: var(--text-header);
    cursor: pointer;
+   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
+   padding: 6px 22px;
    }
                                  /*секция фото*/
 .works-text-box {
@@ -228,3 +272,4 @@ body{
    letter-spacing: 0.03em;
    color: var(--color-text);
 }
+/**/
