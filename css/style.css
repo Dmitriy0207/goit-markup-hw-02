@@ -40,33 +40,79 @@ body{
    padding: 0;
    clip: rect(0 0 0 0);
    clip-path: inset(50%);
-   margin: -1px; }
+   margin: -1px;
+}
+ul{
+   margin: 0;
+   padding: 0;
+}
+
 /*line-height:1.33*/
                               /*Шапка*/
 .header{
    background-color: var(--background-section);
 }
-.head-conteiner{
-   width: 1170px;
-   margin-left: auto;
-   margin-right: auto;
+.box{
+   border-bottom-color:#ECECEC ;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
 }
+
+.conteiner{
+   width: 1170px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+} 
+.head-conteiner{
+   display: flex;
+
+}
+
+.nav-conteiner{
+   display: flex;
+   align-items: center;
+}
+
+.site-nav{
+   display: flex;
+   
+}
+
+.site-contacts{
+   display: flex;
+   margin-left: auto;
+   align-items: center;
+}
+.mail{
+   margin-right: 50px;
+}
+
 .logo{
    font-family: 'Raleway';
    font-weight: 700;
    font-size: 26px;
    line-height: 1.38;
    color:var(--text-header);
+   margin-right: 93px;
 }
 .web-logo{
    color: var(--text-active);
 }
 .site-nav-link{
+   display: flex;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.2;
    color: var(--text-header);
+   
 }
+.site-nav:not(:first-child){
+   margin-right: 50px;
+}
+
 .site-nav-link:hover,
 .site-nav-link:focus{
    color: var(--text-active);
@@ -78,14 +124,13 @@ body{
    letter-spacing: 0.02em;
    color: var(--color-text)
 }
+
 .contacts:hover,
 .contacts:focus,
 .footer-contacts{
    color: var(--text-active);
 }
-.site-contacts{
 
-}
                         /*footer*/
 
 .footer-content{
