@@ -139,6 +139,8 @@ ul{
 
 .footer-content{
    background: #2F303A;
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 .studio-logo{
    color: var(--background-section);
@@ -146,16 +148,22 @@ ul{
 .location{
    color: var(--background-section);
 }
+.address-content{
+   margin-top: 20px;
+}
 .address-item{
    font-style: normal;
    font-weight: normal;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
-   
+}
+.address-item:not(:last-child){
+   margin-bottom: 9px;
 }
 .footer-contacts{
    color: rgba(255, 255, 255, 0.6);
+
 }
 .footer-contacts:hover,
 .footer-contacts:focus{
