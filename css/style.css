@@ -1,12 +1,3 @@
-/*html{
-   box-sizing: border-box;
-}
-*,
-*::after,
-*::before{
-   box-sizing: inherit;
-}*/
-
 :root{
    --text-active:#2196F3;
    --text-header:#212121;
@@ -50,7 +41,10 @@ ul{
    margin: 0;
    padding: 0;
 }
-
+.section{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 /*line-height:1.33*/
                               /*Шапка*/
 .header{
@@ -170,14 +164,7 @@ ul{
    color: var(--text-active);
 }
                               /*cервисы 1cтр*/
-
-
-.main-content{
-   border: 1px;
-}
-
-
-
+                              
                               /*заказать услугу*/
 
 
@@ -224,7 +211,6 @@ ul{
 }
 .features{
    background-color: var(--background-section);
-   margin-top: 95px;
    display: flex;
 
 }
@@ -269,8 +255,8 @@ ul{
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--text-header);
-   margin-top: 94px;
-   margin-bottom: 0;
+   margin: -94px auto 0 auto;
+   
 }
 .employment-list{
    display: flex;
@@ -278,9 +264,6 @@ ul{
    flex-basis: calc(100% / 3 - 30px);
 }
 
-/*.employment-item{
-   margin-right: 30px;
-}*/
 .employment-item:not(:last-child){
    margin-right: 30px;
 }
@@ -288,8 +271,6 @@ ul{
                                /*наша команда */
 .team-section{
    background: #F5F4FA;
-   margin-top: 94px;
-   padding-top: 94px;
 }
 .team{
    margin-top: 0;
@@ -304,7 +285,6 @@ ul{
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
    /*border: 1px solid #212121;*/
-   margin-bottom: 94px;
 }
 .developer-item:not(:last-child){
    margin-right: 30px;
@@ -340,7 +320,6 @@ ul{
 }
 .filter{ 
    display: flex;
-   margin-top: 94px;
    justify-content: center;
 }
 .filter-item:not(:last-child){
@@ -387,7 +366,6 @@ ul{
    margin-top: 50px;
    flex-wrap: wrap;
    margin-left: -30px;
-   margin-bottom: 94px;
 }
 .works-item{
    margin-left: 30px;
@@ -396,4 +374,7 @@ ul{
    background: #FFFFFF;
    border: 1px solid #EEEEEE;
    box-sizing: border-box;
+}
+.works-item:nth-last-child(-n+3){
+   margin-bottom: 0;
 }
