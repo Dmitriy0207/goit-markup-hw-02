@@ -12,6 +12,10 @@ body{
 img{
    display: block;
    max-width: 100%;
+   height: auto;
+}
+h1,h2,h3,p{
+   margin: 0;
 }
 
 /* что бы убрать точки (класс списка)*/
@@ -38,6 +42,7 @@ img{
    margin: -1px;
 }
 ul{
+   list-style: none;
    margin: 0;
    padding: 0;
 }
@@ -57,7 +62,7 @@ ul{
 }
 
 .conteiner{
-   width: 1170px;
+   width: 1200px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
@@ -136,8 +141,12 @@ ul{
    padding-top: 60px;
    padding-bottom: 60px;
 }
-.studio-logo{
+.footer-logo{
    color: var(--background-section);
+   font-family: 'Raleway';
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.38;
 }
 .location{
    color: var(--background-section);
@@ -169,28 +178,34 @@ ul{
 
 
 
-.title-part{
+.hero{
    background-color: #2F303A;
-   width: 1600px;
-   height: 600px;
+   max-width: 1600px;
    margin-left: auto;
-   margin-right: auto;
-   padding: 200px 452px 0 452px;
+   margin-right: auto; 
    text-align: center;
+   padding: 200px 0;
+   /*height: 600px;
+   padding: 200px 452px 0 452px;*/
+   
 }
-.title-business{
+.title-hero{
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
    letter-spacing: 0.06em;
    text-transform: uppercase;   
    color: var(--background-section);
-   margin: 30px;
+   margin-bottom: 30px;
    padding: 0;
+   width: 696px;
+   margin-right: auto;
+   margin-left: auto;
 }
 .button{
    background: var(--text-active);
    color: var(--background-section);
+   border: transparent;
    font-family: inherit;
    font-weight: 700;
    font-size: 16px;
@@ -206,24 +221,18 @@ ul{
 }
 
                               /*заголовки и текст*/
-.features-conteiner{
-   
-}
+
 .features{
    background-color: var(--background-section);
    display: flex;
+}
 
-}
-.features-title{
-   margin-top: 0;
-   margin-bottom: 10px;
-}
 .features-text{
    margin-top: 0px;
 }
-.section-advanteges,
 .section-services{
    background: #ffffff;
+   padding-top: 0;
 }
 .features-title{
    font-style: normal;
@@ -233,6 +242,8 @@ ul{
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: var(--text-header);
+   margin-top: 0;
+   margin-bottom: 10px;
 }
 .features-text{
    font-style: normal;
@@ -255,7 +266,6 @@ ul{
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--text-header);
-   margin: -94px auto 0 auto;
    
 }
 .employment-list{
@@ -289,6 +299,9 @@ ul{
 .developer-item:not(:last-child){
    margin-right: 30px;
 }
+.team-card{
+   padding: 30px 0;
+}
 .name-developer{
    font-style: normal;
    font-weight: 500;
@@ -297,6 +310,7 @@ ul{
    text-align: center;
    letter-spacing: 0.03em;
    color: var(--text-header);
+   margin-bottom: 10px;
 }
 .text-foto-team{
    font-style: normal;
